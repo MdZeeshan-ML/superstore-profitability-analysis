@@ -71,6 +71,8 @@ This analysis can be exported as:
 | 9 | Geographic Analysis | Regional performance insights |
 | 10 | Product Analysis | Category profitability breakdown |
 | 11 | Recommendations | Strategic action plan |
+| 12 | Technical Documentation | Document technical approach for repreduciblity |
+| 13 | Export Package | Generate PDF, HTML, and ZIP deliverables | 
 
 ---
 
