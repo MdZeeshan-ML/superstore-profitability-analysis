@@ -216,7 +216,7 @@ print("="*60)
 - Useful for portfolio diversification planning
 
 ---
-
+```
 ## ⚙️ Customization Options
 
 **Change Colors:**
