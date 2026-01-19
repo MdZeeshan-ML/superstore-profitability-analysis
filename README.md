@@ -1,238 +1,282 @@
 # 📊 SuperStore Profitability Analysis
+**$135,376 Profit Recovery | RFM Segmentation | Customer Lifetime Value Analytics**
 
-> **Revenue Recovery Roadmap** - Executive Dashboard, RFM Segmentation, Customer Lifetime Value & Interactive Visualizations
+<div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-5⭐%20HackerRank-gold?logo=python&logoColor=white)](https://www.hackerrank.com/Blanc_coder)
+[![Problem Solving](https://img.shields.io/badge/Problem%20Solving-3⭐-success)](https://www.hackerrank.com/Blanc_coder)
+[![SQL](https://img.shields.io/badge/SQL-Intermediate-blue?logo=postgresql)](https://www.hackerrank.com/certificates/95324fb8b70b)
+[![IIT Madras](https://img.shields.io/badge/IIT%20Madras-Data%20Science-orange)](https://study.iitm.ac.in/)
+[![CGPA](https://img.shields.io/badge/CGPA-8.83-brightgreen)](https://study.iitm.ac.in/)
 
----
-
-## 📝 Overview
-
-A comprehensive business intelligence analysis of retail superstore data, providing actionable insights for revenue optimization, customer retention, and strategic decision-making. This project transforms raw sales data into executive-ready reports with interactive visualizations.
-
-### ✨ Key Features
-
-- 📈 **Executive Dashboard** - 30-second visual overview of key business metrics
-- 💰 **Discount Optimization** - Identify profit-destroying discount levels
-- 👥 **RFM Segmentation** - Customer classification by value and behavior
-- 📅 **Cohort Retention Analysis** - Track customer loyalty over time
-- 🌍 **Geographic Insights** - Regional performance and expansion opportunities
-- 📦 **Product Analysis** - Category profitability breakdown
-- 🎯 **CLV Calculation** - Customer Lifetime Value projection
+</div>
 
 ---
 
-## 📁 Project Structure
+## 👤 About Me
 
+**Mohammad Zeeshan Hussain**  
+🎓 Data Science (BS) @ CODE - IIT Madras | CGPA: 8.83  
+💻 Python Expert (5⭐ HackerRank) | SQL Certified  
+📍 Delhi, India
+
+**Skills:** Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly) | SQL | Data Cleaning | EDA | Statistical Analysis | RFM Segmentation | CLV Modeling
+
+📧 **Contact:** ig.zeeshad@gmail.com  
+🐙 **GitHub:** [@MdZeeshan-ML](https://github.com/MdZeeshan-ML)  
+💼 **HackerRank:** [@Blanc_coder](https://www.hackerrank.com/Blanc_coder)
+
+---
+
+## 🎯 Executive Summary
+
+Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual recoverable profit** through:
+- Discount policy optimization (30% cap implementation)
+- Customer segmentation (9 distinct segments)
+- Retention strategy improvements (12.1% → 20% target)
+
+### Business Impact at a Glance
+
+| Metric | Finding | Action |
+|--------|---------|--------|
+| **Profit at Risk** | $135,376/year from 30%+ discounts | Cap discounts at 29.9% |
+| **ROI** | 773% in Year 1 | Implementation cost: $15,500 |
+| **High-Risk Loss** | Consumer segment: -$64,216 | Restrict to 20% max discount |
+| **Retention Crisis** | 87.9% churn in Month 1 | Launch 30-day activation campaign |
+| **VIP Opportunity** | Top 10% = $13,021 avg CLV | Create Platinum tier program |
+
+---
+
+## 📊 Key Visualizations
+
+### Executive Dashboard
+![Executive Dashboard](images/dashboard.png)
+*8-panel KPI dashboard showing revenue ($2.3M), profit margin (12.5%), order trends, and category performance*
+
+### Discount Impact Analysis
+![Discount Analysis](images/discount_impact.png)
+*Critical finding: 30%+ discounts create -119% profit margin. Orders with 20-30% discounts lose $10.05 per transaction.*
+
+### Customer Segmentation (Pareto)
+![RFM Segments](images/pareto_chart.png)
+*5 segments drive 80% of profit: Champions (21.1%), Loyal (18.1%), Potential Loyalists (16.9%), At Risk (12.4%), Hibernating (9.8%)*
+
+---
+
+## 🔍 Key Findings
+
+### 1. Discount Optimization
+**Problem:** Discounts >20% consistently generate losses
+
+| Discount Range | Profit Margin | Orders | Status |
+|----------------|---------------|--------|--------|
+| 0-10% | +28.89% | 3,257 | ✅ Healthy |
+| 10-20% | +11.58% | 1,694 | ✅ Acceptable |
+| 20-30% | **-10.05%** | 211 | ⚠️ Marginal |
+| 30-40% | **-19.44%** | 211 | ❌ At Risk |
+| 40-50% | **-35.71%** | 326 | ❌ Loss Territory |
+| 50%+ | **-119.20%** | 685 | ❌ Major Loss |
+
+**Recommendation:** Implement 29.9% discount cap → **$135,376 annual recovery**
+
+### 2. RFM Customer Segmentation
+9 segments identified with distinct behaviors:
+
+| Segment | Customers | Profit | % of Total | Avg CLV | Strategy |
+|---------|-----------|--------|------------|---------|----------|
+| Champions | 85 (10.7%) | $60,341 | 21.1% | $5,357 | VIP treatment, exclusive offers |
+| Loyal Customers | 72 (9.1%) | $51,688 | 18.1% | $5,172 | Loyalty rewards, early access |
+| Potential Loyalists | 142 (17.9%) | $48,285 | 16.9% | $2,861 | Upsell campaigns, engagement |
+| **At Risk** | 57 (7.2%) | $35,356 | 12.4% | $3,684 | **Win-back campaigns (urgent)** |
+| Hibernating | 59 (7.4%) | $28,012 | 9.8% | $3,581 | Reactivation offers |
+
+**80/20 Rule:** Top 5 segments = 80% of profit
+
+### 3. Customer Lifetime Value (CLV)
+3-year projection model reveals value tiers:
+
+- **Average CLV:** $3,633
+- **Median CLV:** $2,584
+- **90th Percentile (Platinum):** $6,948+
+- **Recommended Max CAC:** $1,090 per customer (30% of avg CLV)
+
+---
+
+## 💼 Business Recommendations
+
+### Immediate Actions (Week 1)
+1. **Discount Cap Implementation**
+   - Hard cap: 29.9% maximum
+   - Require VP approval for 20-29.9% range
+   - **Expected Impact:** +$135,376 annual profit
+
+2. **At Risk Segment Rescue**
+   - 57 customers, $35,356 at stake
+   - Send win-back offers within 48 hours
+   - **Target:** Recover 30% = $10,607
+
+### Medium-Term Strategy (Month 1-3)
+3. **Month 1 Retention Campaign**
+   - **Problem:** 87.9% churn in first month
+   - **Target:** Lift to 20% retention (+63 repeat customers)
+   - **Expected Revenue:** +$162,000
+
+4. **VIP Program Launch**
+   - Target: Platinum tier (90th percentile = 80 customers)
+   - Benefits: Dedicated rep, loyalty discount
+   - **Justification:** $6,948 avg CLV supports premium service
+
+---
+
+## 🛠️ Technical Implementation
+
+### Tech Stack
+```python
+# Data Manipulation
+pandas (2.0+)          # DataFrames, aggregations
+numpy (1.24+)          # Numerical operations
+
+# Visualization
+matplotlib (3.7+)      # Static charts
+seaborn (0.13+)        # Statistical plots
+plotly (5.18+)         # Interactive dashboards
+
+# Analysis Methods
+- RFM Segmentation (quintile-based scoring)
+- Customer Lifetime Value (AOV × frequency × lifespan)
+- Cohort Analysis (retention heatmaps)
+- Pareto Analysis (80/20 rule)
 ```
-superstore-profitability-analysis/
-├── Notebook_Structure_Guide.md       # Complete project architecture
-├── Section_0_Title_and_Setup.md      # Introduction & library setup
-├── Section_1_Executive_Dashboard.md  # KPI visualizations
-├── Section_2_Key_Findings.md         # Business insights summary
-├── Section_3_Data_Loading.md         # Data preprocessing
-├── Section_4_Discount_Segment_Analysis.md
-├── Section_5_RFM_Segmentation.md
-├── Section_6_Customer_Lifetime_Value.md
-├── Section_7_Cohort_Retention_Analysis.md
-├── Section_8_New_vs_Returning_Analysis.md
-├── Section_9_Geographic_Analysis.md
-├── Section_10_Product_Analysis.md
-├── Section_11_Recommendations.md     # Strategic action plan
-├── Section_12_Technical_Documentation.md
-└── Section_13_Export_Package.md      # Export configurations
+
+### Key Algorithms
+
+**RFM Scoring**
+```python
+RScore = pd.qcut(Recency, q=5, labels=[5,4,3,2,1])
+FScore = pd.qcut(Frequency, q=5, labels=[1,2,3,4,5])
+MScore = pd.qcut(Monetary, q=5, labels=[1,2,3,4,5])
+```
+
+**CLV Calculation**
+```python
+CLV_3Y = AOV × (Orders/Lifespan_Days × 365) × 3
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🚀 How to Run
 
-### Prerequisites
+### Google Colab (Recommended)
+1. Open `Superstore_Analysis-27.ipynb` in Colab
+2. Upload `Sample - Superstore.csv` when prompted
+3. Run All Cells (Ctrl+F9)
+4. Dashboards auto-generate in ~30 seconds
 
-```bash
-Python 3.8+
-Jupyter Notebook
-```
-
-### Installation
-
-1. **Clone the repository**
+### Local Jupyter
 ```bash
 git clone https://github.com/MdZeeshan-ML/superstore-profitability-analysis.git
 cd superstore-profitability-analysis
+pip install -r requirements.txt
+jupyter notebook Superstore_Analysis-27.ipynb
 ```
 
-2. **Install dependencies**
-```bash
-pip install pandas numpy matplotlib seaborn plotly jupyter
-```
-
-3. **Launch Jupyter Notebook**
-```bash
-jupyter notebook
-```
-
-4. **Run the analysis**
-   - Open the main notebook
-   - Run all cells: `Kernel → Restart & Run All`
-   - Analysis completes in 15-20 minutes
-
----
-
-## 📊 Analysis Sections
-
-| Section | Topic | Key Insights |
-|---------|-------|-------------|
-| 0 | **Title & Setup** | Library imports and configuration |
-| 1 | **Executive Dashboard** | Revenue, margin, orders at-a-glance |
-| 2 | **Key Findings** | Top 4 actionable recommendations |
-| 3 | **Data Loading** | 9,994 transactions (2014-2017) |
-| 4 | **Discount Analysis** | 60%+ discounts = negative profit |
-| 5 | **RFM Segmentation** | 4 segments drive 80% of profit |
-| 6 | **Customer Lifetime Value** | Average 3-year CLV calculation |
-| 7 | **Cohort Retention** | Month-by-month churn patterns |
-| 8 | **New vs Returning** | Acquisition vs retention metrics |
-| 9 | **Geographic Analysis** | State/region performance |
-| 10 | **Product Analysis** | Profitable vs loss-making categories |
-| 11 | **Recommendations** | 30/60/90-day action roadmap |
-| 12 | **Technical Docs** | Methodology and formulas |
-| 13 | **Export Package** | PDF/HTML generation |
-
----
-
-## 📦 Deliverables
-
-This analysis generates three output formats:
-
-### 1. 📄 Executive Report (PDF)
-- 5-8 pages, mobile-friendly
-- No code, only insights and visualizations
-- Perfect for stakeholder presentations
-
-### 2. 📊 Interactive Analysis (HTML)
-- Full notebook with live Plotly charts
-- Hover tooltips, zoom, pan functionality
-- Works offline after download
-
-### 3. 📓 Source Notebook (.ipynb)
-- Fully editable and customizable
-- Adapt for your own datasets
-- Integrate into production pipelines
-
-**Export commands:**
-```bash
-# PDF Export
-jupyter nbconvert notebook.ipynb --to webpdf --no-input --output Executive_Report
-
-# HTML Export
-jupyter nbconvert notebook.ipynb --to html --output Interactive_Analysis
+### Requirements
+```txt
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.18.0
 ```
 
 ---
 
-## 📊 Sample Insights
+## 📖 Data Dictionary
 
-### Discount Optimization
-- **Finding:** Discounts above 30% consistently generate losses
-- **Action:** Implement discount cap with approval workflow
-- **Impact:** Estimated $X annual profit recovery
+### Source Data (9,994 transactions)
+| Column | Type | Description | Example |
+|--------|------|-------------|---------|
+| `OrderDate` | datetime | Transaction date | 2016-11-08 |
+| `CustomerId` | string | Unique customer ID | CG-12520 |
+| `Sales` | float | Revenue per order | $261.96 |
+| `Profit` | float | Net profit/loss | $41.91 |
+| `Discount` | float | Discount rate (0-1) | 0.00 (0%) |
+| `Category` | string | Product type | Furniture |
+| `Segment` | string | Customer type | Consumer/Corporate/Home Office |
 
-### Customer Segmentation
-- **Champions:** 15% of customers, 45% of profit
-- **At Risk:** High-value customers showing churn signals
-- **Action:** Targeted win-back campaign within 14 days
-
-### Geographic Opportunities
-- **Top performers:** [States from analysis]
-- **Underperforming:** [Regions needing attention]
-- **Action:** Reallocate 40% of marketing budget
-
----
-
-## 🛠️ Technology Stack
-
-**Data Processing:**
-- `pandas` - Data manipulation and aggregation
-- `numpy` - Numerical computations
-
-**Visualization:**
-- `matplotlib` - Static charts and graphs
-- `seaborn` - Statistical visualizations
-- `plotly` - Interactive dashboards
-
-**Analysis Tools:**
-- Jupyter Notebook - Interactive development
-- RFM Analysis - Customer segmentation
-- Cohort Analysis - Retention tracking
+### Calculated Fields
+| Field | Formula | Purpose |
+|-------|---------|---------|
+| `RFMSegment` | f(RScore, FScore, MScore) | Champions, Loyal, At Risk, etc. |
+| `CLV3Y` | AOV × Annual Orders × 3 | 3-year revenue projection |
+| `Profitability` | Profit / Sales | Margin percentage |
 
 ---
 
-## 📈 Business Impact
+## 🎓 Skills Demonstrated
 
-### Immediate Actions (0-30 days)
-1. ✅ Cap discounts at 30%
-2. ✅ Launch at-risk customer campaign
-3. ✅ Implement VIP loyalty program
+### Data Analysis
+✅ Cleaned 9,994 records (zero nulls)  
+✅ Created 7 calculated metrics  
+✅ Segmented 793 customers into 9 groups  
+✅ Projected 3-year CLV for entire customer base
 
-### Strategic Initiatives (30-90 days)
-4. 🔄 Discontinue unprofitable SKUs
-5. 🔄 Expand in high-potential regions
-6. 🔄 Deploy predictive churn model
+### Statistical Methods
+✅ RFM Segmentation (quintile-based)  
+✅ CLV Modeling (time-adjusted frequency)  
+✅ Cohort Analysis (retention tracking)  
+✅ Pareto Analysis (80/20 profit concentration)
 
-**Expected ROI:** [Calculate based on your data]
+### Visualization
+✅ Executive dashboard (8-panel layout)  
+✅ Interactive Plotly charts (hover, zoom, filter)  
+✅ Retention heatmaps  
+✅ Portfolio analysis
 
----
-
-## 📚 Documentation
-
-For detailed implementation guides, see:
-- [Notebook Structure Guide](Notebook_Structure_Guide.md) - Complete architecture
-- [Section Files](.) - Individual section documentation
-- [Technical Documentation](Section_12_Technical_Documentation.md) - Methodology
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-- Report bugs via Issues
-- Suggest new features
-- Submit pull requests
-- Share your adaptations
+### Business Translation
+✅ $135K profit quantification  
+✅ ROI calculation (773% Year 1)  
+✅ Segment-specific action plans  
+✅ Prioritized recommendations by impact
 
 ---
 
-## 📝 License
+## 📜 Certifications
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<div align="center">
 
----
+| Certificate | Issuer | Credential |
+|-------------|--------|-----------|
+| **Python (Basic)** | HackerRank | [5b5e02831c73](https://www.hackerrank.com/certificates/5b5e02831c73) |
+| **SQL (Basic)** | HackerRank | [9e8c92208cbc](https://www.hackerrank.com/certificates/9e8c92208cbc) |
+| **SQL (Intermediate)** | HackerRank | [95324fb8b70b](https://www.hackerrank.com/certificates/95324fb8b70b) |
 
-## 👤 Author
-
-**Mohammad Zeeshan Hussain**
-- GitHub: [@MdZeeshan-ML](https://github.com/MdZeeshan-ML)
-- Repository: [superstore-profitability-analysis](https://github.com/MdZeeshan-ML/superstore-profitability-analysis)
-
----
-
-## ⭐ Acknowledgments
-
-- Dataset: Superstore Sales Data (Kaggle)
-- Inspired by real-world retail analytics challenges
-- Built with Python data science ecosystem
+</div>
 
 ---
 
-## 📞 Support
+## 🤝 Let's Connect
 
-For questions or custom analysis requests:
-- Open an issue in this repository
-- Fork and adapt for your use case
-- Star ⭐ this repo if you find it useful!
+I'm available for freelance data analysis projects, especially:
+- Retail/e-commerce profitability analysis
+- Customer segmentation and CLV modeling
+- Discount/pricing optimization
+- Retention and churn analysis
+- Python automation for data pipelines
+
+📧 **Email:** ig.zeeshad@gmail.com  
+💼 **HackerRank:** [@Blanc_coder](https://www.hackerrank.com/Blanc_coder) (5⭐ Python, 3⭐ Problem Solving)  
+
 
 ---
 
-**Last Updated:** January 2026 | **Version:** 1.0
+## ⭐ Support This Project
+
+If you found this analysis helpful:
+1. ⭐ Star this repository
+2. 🔄 Share with your network
+3. 📧 Reach out for collaboration
+
+---
+
+**Built with 💻 by Mohammad Zeeshan Hussain | January 2026**
