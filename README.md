@@ -63,47 +63,6 @@ Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual 
 
 ---
 
-## 🔍 Key Findings
-
-### 1. Discount Optimization
-**Problem:** Discounts >20% consistently generate losses
-
-| Discount Range | Profit Margin | Orders | Status |
-|----------------|---------------|--------|--------|
-| 0-10% | +28.89% | 3,257 | ✅ Healthy |
-| 10-20% | +11.58% | 1,694 | ✅ Acceptable |
-| 20-30% | **-10.05%** | 211 | ⚠️ Marginal |
-| 30-40% | **-19.44%** | 211 | ❌ At Risk |
-| 40-50% | **-35.71%** | 326 | ❌ Loss Territory |
-| 50%+ | **-119.20%** | 685 | ❌ Major Loss |
-
-**Recommendation:** Implement 29.9% discount cap → **$135,376 annual recovery**
-
-### 2. RFM Customer Segmentation
-9 segments identified with distinct behaviors:
-
-| Segment | Customers | Profit | % of Total | Avg CLV | Strategy |
-|---------|-----------|--------|------------|---------|----------|
-| Champions | 85 (10.7%) | $60,341 | 21.1% | $5,357 | VIP treatment, exclusive offers |
-| Loyal Customers | 72 (9.1%) | $51,688 | 18.1% | $5,172 | Loyalty rewards, early access |
-| Potential Loyalists | 142 (17.9%) | $48,285 | 16.9% | $2,861 | Upsell campaigns, engagement |
-| **At Risk** | 57 (7.2%) | $35,356 | 12.4% | $3,684 | **Win-back campaigns (urgent)** |
-| Hibernating | 59 (7.4%) | $28,012 | 9.8% | $3,581 | Reactivation offers |
-
-**80/20 Rule:** Top 5 segments = 80% of profit
-
-### 3. Customer Lifetime Value (CLV)
-3-year projection model reveals value tiers:
-
-- **Average CLV:** $3,633
-- **Median CLV:** $2,584
-- **90th Percentile (Platinum):** $6,948+
-- **Recommended Max CAC:** $1,090 per customer (30% of avg CLV)
-
----
-
-## 🔍 Key Findings
-
 ### 1. Discount Impact on Profitability
 
 | Discount Range | Profit Margin | Orders | Total Profit/Loss |
@@ -215,7 +174,7 @@ CLV_3Y = AOV × (Orders/Lifespan_Days × 365) × 3
 ## 🚀 How to Run
 
 ### Google Colab (Recommended)
-1. Open `Superstore_Analysis-27.ipynb` in Colab
+1. Open `Superstore_Analysis-v2.7.ipynb` in Colab
 2. Upload `Sample - Superstore.csv` when prompted
 3. Run All Cells (Ctrl+F9)
 4. Dashboards auto-generate in ~30 seconds
@@ -225,7 +184,7 @@ CLV_3Y = AOV × (Orders/Lifespan_Days × 365) × 3
 git clone https://github.com/MdZeeshan-ML/superstore-profitability-analysis.git
 cd superstore-profitability-analysis
 pip install -r requirements.txt
-jupyter notebook Superstore_Analysis-27.ipynb
+jupyter notebook Superstore_Analysis-v2.7.ipynb
 ```
 
 ### Requirements
@@ -298,7 +257,7 @@ plotly>=5.18.0
 | **Python (Basic)** | HackerRank | [5b5e02831c73](https://www.hackerrank.com/certificates/5b5e02831c73) |
 | **SQL (Basic)** | HackerRank | [9e8c92208cbc](https://www.hackerrank.com/certificates/9e8c92208cbc) |
 | **SQL (Intermediate)** | HackerRank | [95324fb8b70b](https://www.hackerrank.com/certificates/95324fb8b70b) |
-
+| **Software Engineer(Intern)** | HackerRank | [967bff7dc77a](https://www.hackerrank.com/certificates/967bff7dc77a) |
 </div>
 
 ---
