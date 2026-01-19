@@ -29,11 +29,11 @@
 ---
 
 ## 🎯 Executive Summary
-
 Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual recoverable profit** through:
 - Discount policy optimization (30% cap implementation)
 - Customer segmentation (9 distinct segments)
 - Retention strategy improvements (12.1% → 20% target)
+![Executive Dashboard](images/executive_dashboard.png)
 
 ### Business Impact at a Glance
 
@@ -48,12 +48,6 @@ Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual 
 ---
 
 ## 📊 Key Visualizations
-
-### Executive Dashboard
-
-![Executive Dashboard](images/executive_dashboard.png)
-
-*8-panel KPI dashboard showing revenue ($2.3M), profit margin (12.5%), order trends, and category performance*
 
 ### Discount Impact Analysis
 
