@@ -102,29 +102,77 @@ Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual 
 
 ---
 
-## 💼 Business Recommendations
+## 🔍 Key Findings
 
-### Immediate Actions (Week 1)
-1. **Discount Cap Implementation**
-   - Hard cap: 29.9% maximum
-   - Require VP approval for 20-29.9% range
-   - **Expected Impact:** +$135,376 annual profit
+### 1. Discount Impact on Profitability
 
-2. **At Risk Segment Rescue**
-   - 57 customers, $35,356 at stake
-   - Send win-back offers within 48 hours
-   - **Target:** Recover 30% = $10,607
+| Discount Range | Profit Margin | Orders | Total Profit/Loss |
+|----------------|---------------|--------|-------------------|
+| 0-10% | +28.89% | 3,257 | $182,449 |
+| 10-20% | +11.58% | 1,694 | $74,631 |
+| 20-30% | **-10.05%** | 211 | **-$21,206** |
+| 30-40% | **-19.44%** | 211 | **-$41,013** |
+| 40-50% | **-35.71%** | 326 | **-$116,409** |
+| 50%+ | **-119.20%** | 685 | **-$164,848** |
 
-### Medium-Term Strategy (Month 1-3)
-3. **Month 1 Retention Campaign**
-   - **Problem:** 87.9% churn in first month
-   - **Target:** Lift to 20% retention (+63 repeat customers)
-   - **Expected Revenue:** +$162,000
+**Observation:** Orders with discounts exceeding 20% consistently generate negative profit margins. The 869 orders in the 20%+ range collectively lost $343,476.
 
-4. **VIP Program Launch**
-   - Target: Platinum tier (90th percentile = 80 customers)
-   - Benefits: Dedicated rep, loyalty discount
-   - **Justification:** $6,948 avg CLV supports premium service
+### 2. Customer Segmentation Analysis (RFM)
+
+| Segment | Customers | Total Profit | % of Profit | Avg Revenue | Avg Recency (Days) |
+|---------|-----------|--------------|-------------|-------------|-------------------|
+| Champions | 85 (10.7%) | $60,341 | 21.1% | $5,357 | 26 |
+| Loyal Customers | 72 (9.1%) | $51,688 | 18.1% | $5,172 | 141 |
+| Potential Loyalists | 142 (17.9%) | $48,285 | 16.9% | $2,861 | 26 |
+| At Risk | 57 (7.2%) | $35,356 | 12.4% | $3,684 | 240 |
+| Hibernating | 59 (7.4%) | $28,012 | 9.8% | $3,581 | 347 |
+| New Customers | 91 (11.5%) | $25,417 | 8.9% | $1,826 | 26 |
+| Promising | 108 (13.6%) | $23,436 | 8.2% | $2,196 | 130 |
+| Need Attention | 57 (7.2%) | $9,856 | 3.4% | $2,487 | 74 |
+| Lost | 122 (15.4%) | $4,005 | 1.4% | $794 | 380 |
+
+**Observation:** The top 5 segments (37.7% of customers) generate 78.3% of total profit. The "At Risk" segment shows high average revenue ($3,684) but concerning inactivity (240 days average).
+
+### 3. Customer Lifetime Value Distribution
+
+- **Mean 3-Year CLV:** $3,633
+- **Median 3-Year CLV:** $2,584
+- **90th Percentile:** $6,948
+- **Top 1%:** $26,727
+- **Standard Deviation:** High variance indicates diverse customer value tiers
+
+**Observation:** Significant CLV disparity exists. Top 10% of customers (80 individuals) have 3-year values exceeding $6,948, representing disproportionate revenue concentration.
+
+### 4. Retention Patterns
+
+- **Month 1 Retention:** 12.1% (87.9% of customers don't return after first purchase)
+- **Month 3 Retention:** 8.4%
+- **Month 6 Retention:** 6.2%
+- **Repeat Customer Value:** 6.8x higher than one-time buyers
+
+**Observation:** Severe attrition in the first 30 days. Customers who survive Month 1 demonstrate significantly higher lifetime value.
+
+### 5. Product Portfolio Performance
+
+| Sub-Category | Total Profit | Profit Margin | Orders | Status Pattern |
+|--------------|--------------|---------------|--------|----------------|
+| Copiers | $55,618 | 26.3% | 234 | High margin, moderate volume |
+| Phones | $44,516 | 15.7% | 889 | Moderate margin, high volume |
+| Accessories | $41,937 | 17.8% | 775 | Balanced |
+| **Tables** | **-$17,725** | **-9.0%** | 319 | Consistent losses |
+| **Bookcases** | **-$3,473** | **-2.1%** | 228 | Marginal losses |
+
+**Observation:** Tables sub-category shows persistent negative margins across 319 orders. Technology products (Copiers, Phones, Accessories) demonstrate strongest profitability.
+
+### 6. Cohort Behavior Variance
+
+- **Best Performing Cohort:** June 2017 (100% 6-month retention, 23 customers)
+- **Worst Performing Cohort:** November 2014 (3.2% 6-month retention, 63 customers)
+- **Average Cohort Size:** 51 customers/month
+- **Seasonal Pattern:** Q2-Q3 cohorts show 18% better retention than Q4-Q1
+
+**Observation:** Cohort performance varies significantly by acquisition period. Recent cohorts (2017) exhibit markedly better retention than 2014-2015 cohorts.
+
 
 ---
 
