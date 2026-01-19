@@ -39,26 +39,32 @@ Analyzed 9,994 retail transactions (2014-2017) to identify **$135,376 in annual 
 
 | Metric | Finding | Action |
 |--------|---------|--------|
-| **Profit at Risk** | $135,376/year from 30%+ discounts | Cap discounts at 29.9% |
+| **Profit at Risk** | -$135,376/year from 30%+ discounts | 
 | **ROI** | 773% in Year 1 | Implementation cost: $15,500 |
-| **High-Risk Loss** | Consumer segment: -$64,216 | Restrict to 20% max discount |
-| **Retention Crisis** | 87.9% churn in Month 1 | Launch 30-day activation campaign |
-| **VIP Opportunity** | Top 10% = $13,021 avg CLV | Create Platinum tier program |
+| **High-Risk Loss** | Consumer segment: -$64,216 | 
+| **Retention Crisis** | 87.9% churn in Month 1 | 
+| **VIP Opportunity** | Top 10% = $13,021 avg CLV |
 
 ---
 
 ## 📊 Key Visualizations
 
 ### Executive Dashboard
-![Executive Dashboard](images/dashboard.png)
+
+![Executive Dashboard](images/executive_dashboard.png)
+
 *8-panel KPI dashboard showing revenue ($2.3M), profit margin (12.5%), order trends, and category performance*
 
 ### Discount Impact Analysis
+
 ![Discount Analysis](images/discount_impact.png)
+
 *Critical finding: 30%+ discounts create -119% profit margin. Orders with 20-30% discounts lose $10.05 per transaction.*
 
 ### Customer Segmentation (Pareto)
+
 ![RFM Segments](images/pareto_chart.png)
+
 *5 segments drive 80% of profit: Champions (21.1%), Loyal (18.1%), Potential Loyalists (16.9%), At Risk (12.4%), Hibernating (9.8%)*
 
 ---
